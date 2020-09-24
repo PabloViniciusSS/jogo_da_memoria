@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    display: flex;
+    display: auto;
     background: url('/img/mundo.png');
 }
 
@@ -20,9 +20,9 @@ body{
 }
 
 .card{
-    height: calc(33.333% - 10px);
-    width: calc(25% - 10px);
-    margin: 5px;
+    height: calc(35% - 50px);
+    width: calc(32% - 60px);
+    margin: 0px;
     position: relative;
     box-shadow: 1px, 1px, 1px rgba(0,0,0,.9) ;
     cursor: pointer;
